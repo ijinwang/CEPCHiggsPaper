@@ -12,17 +12,17 @@ To download the repository (same as "svn co"), do:
 
 $git clone https://github.com/ijinwang/CEPCHiggsPaper
 
-Once you created or made any changes on file "modifiedfile.tex", do (similar as "svn ci -m" but not submit to the server yet):
+Once you created a new file or made any changes on existing file "modifiedfile.tex", do (similar as "svn ci -m" but not submit to the server yet):
 
-$ git add modifiedfile.tex  (in svn you use "svn add" to stage a new file. While in git you use "add" to stage a new file or a new modification)
+$ git add modifiedfile.tex  (In svn you use "svn add" to stage a new file. While in git both new files and new modifications need to be staged with "add")
 
 $ git commit -m "messages about your modifications"
 
-or use "-a" to commit all the changes you made:
+or use "-a -m" to do the "add" and "commit" the same time with all the changes you made:
 
 $ git commit -a -m "messages about your modifications"
 
-If you want to push the commits you’ve done back up to the server (this plus previous step will serve as "svn ci -m"):
+If you want to push the commits you’ve done back up to the server (this plus previous step will serve as "svn ci -m" and it requests access rights):
 
 $ git push
 
