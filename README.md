@@ -5,7 +5,7 @@ The paper will demonstrate the physics potential of the CEPC experiment and will
 
 If you want to modify the paper draft, you need to register at https://github.com/, and send your username to jinwang.cepc@gmail.com for access rights.
 
-Below is a very simple instruction on the usage of git for those who never used git. 
+Below is a very simple instruction on the usage of git only for those who never used git. 
 This instruction resembles the svn and ignores some key features of git.
 
 To download the repository (same as "svn co"), do:
@@ -31,6 +31,6 @@ If you want to update your local repository (same as "svn update"):
 $ git pull
 
 
-To fully benefit from the git advantages, please read:
+To make the best of git, please read:
 
 https://git-scm.com/book/en/v2
