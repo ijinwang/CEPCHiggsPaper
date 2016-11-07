@@ -22,7 +22,7 @@ or use "-a" to commit all the changes you made:
 
 $ git commit -a -m "messages about your modifications"
 
-If you want to push the commits you’ve done back up to the server (this combined with previous step will serve as "svn ci -m"):
+If you want to push the commits you’ve done back up to the server (this plus previous step will serve as "svn ci -m"):
 
 $ git push
 
