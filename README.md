@@ -31,6 +31,6 @@ If you want to update your local repository (same as "svn update"):
 $ git pull
 
 
-To make the best of git, please read:
+To make the best use of git, please read:
 
 https://git-scm.com/book/en/v2
