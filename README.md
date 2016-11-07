@@ -3,7 +3,9 @@
 This project documents CEPC Higgs measurement results and the physics interpretations, aiming for a paper to be published in Summer 2017. 
 The paper will demonstrate the physics potential of the CEPC experiment and will be used as a reference for the CEPC CDR.
 
-If you want to modify the paper draft, you need to register at https://github.com/, and send your username to jinwang.cepc@gmail.com for access rights.
+If you want to modify the paper draft, you need to register at https://github.com/, and send your username to jinwang.cepc@gmail.com.
+An invitation email will be send to you and you will get full access rights after you accepted the invitation.
+
 
 Below is a very simple instruction on the usage of git only for those who never used git. 
 This instruction resembles the svn and ignores some key features of git.
