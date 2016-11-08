@@ -1,5 +1,3 @@
-test modification 2
-
 # CEPCHiggsPaper
 
 This project documents CEPC Higgs measurement results and the physics interpretations, aiming for a paper to be published in Summer 2017. 
@@ -30,14 +28,20 @@ If you want to push the commits you’ve done back up to the server (this plus p
 
 $ git push
 
-If you want to update your local repository (same as "svn update"):
+Before you upload your modifications, you should update your local repository first (same as "svn update"):
 
 $ git pull
+
+Note that "git pull" will fetch the most updated version from the server and will merge it with your local version.
+It won't overwrite your local modification (same as "svn update"). 
+You have to commit your changes first before "git pull", otherwise there will be warnings/errors.
+There will also be warning if there are conflicts (the same line edited differently by you and others) between the local version and the version on the server, 
+
+If you want to discard your modification (make sure you want to do this!!) and restore previous version, use:
+
+$ git checkout -- modifiedfile.tex
 
 
 To make the best use of git, please read:
 
 https://git-scm.com/book/en/v2
-
-
-test modification 1
