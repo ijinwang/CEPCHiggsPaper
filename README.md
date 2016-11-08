@@ -46,7 +46,7 @@ your modification  (this is your version)
 modification on server (this is the version on server)
 >>>>>>> branch-name (conflict marker ends, "branch-name" is the repository on servers)
 
-You should edit the file and replace the whole conflict area with your preferred solution, and do "git commit -a -m" and "git push" to update your solution of the conflicts.
+You should edit the file and replace the whole conflict area with your preferred solution, and do "git commit -a -m" and "git push" to upload your solution of the conflicts.
 Note that if conflicts exists you have to fix the conflicts as shown above before moving forward with other actions, otherwise it will be messy.
 
 For uncommited modifications, if you want to discard them (make sure you want to do this!!) and restore previous version, use:
