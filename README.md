@@ -41,6 +41,13 @@ If you want to discard your modification (make sure you want to do this!!) and r
 
 $ git checkout -- modifiedfile.tex
 
+or discard all modifications:
+
+$ git checkout -- .
+
+You have to commit your changes first before "git pull", otherwise there will be warnings/errors.
+There will also be warning if there are conflicts (the same line edited differently by you and others) between the local version and the version on the server,
+
 
 To make the best use of git, please read:
 
