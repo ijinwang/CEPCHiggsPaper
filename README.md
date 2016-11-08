@@ -48,7 +48,7 @@ modification on server (this is the version on server)
 
 You should edit the file and remove the whole conflict area with your prefers, and do "git commit -a -m" and "git push" to solve the conflicts.
 
-test modification 4 If you want to discard your modification (make sure you want to do this!!) and restore previous version, use:
+If you want to discard your modification (make sure you want to do this!!) and restore previous version, use:
 
 $ git checkout -- modifiedfile.tex
 
