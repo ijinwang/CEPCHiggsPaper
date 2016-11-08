@@ -41,7 +41,7 @@ Note that "git pull" will fetch the most updated version from the server and wil
 It won't overwrite your local modification (same as "svn update"). 
 You have to commit your changes first before "git pull", otherwise there will be warnings/errors.
 
-There will also be warning if there are conflicts (the same line edited differently by you and others) between the local version and the version on the server, 
+There will also be warnings if there are conflicts (the same line edited differently by you and others) between the local version and the version on the server, 
 In this case, after "git pull " you can find all the information in the conflicted file. 
 It will be shown as below with a conflict-marked area between `<<<<<<<` and `>>>>>>>`, and the two conflicting blocks divided by a `=======`.
 
