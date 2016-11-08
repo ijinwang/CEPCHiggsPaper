@@ -49,13 +49,21 @@ modification on server (this is the version on server)
 You should edit the file and remove the whole conflict area with your prefers, and do "git commit -a -m" and "git push" to solve the conflicts.
 Note that if conflicts exists you have to fix the conflicts as shown above before moving forward with other actions, otherwise it will be messy.
 
-If you want to discard your modification (make sure you want to do this!!) and restore previous version, use:
+For uncommited modifications, if you want to discard them (make sure you want to do this!!) and restore previous version, use:
 
 $ git checkout -- modifiedfile.tex
 
 or discard all modifications:
 
 $ git checkout -- .
+
+For committed modifications, if you want to discard them (make sure you want to do this!!), first find the id of all committed modifications:
+
+$ git log
+
+and then restore the one you prefer:
+
+$ git reset --hard 5775d213fc5450760a4521fd061ff2c7af2e1552  (this number is the the SHA-1 hash of the commit which you will find in "git log")
 
 
 To make the best use of git, please read:
