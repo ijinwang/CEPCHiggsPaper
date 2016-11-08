@@ -21,11 +21,11 @@ This instruction resembles the svn and ignores some key features of git.
 
 1. To download the repository (same as "svn co"), do:
 
-... `git clone https://github.com/ijinwang/CEPCHiggsPaper`
+...`git clone https://github.com/ijinwang/CEPCHiggsPaper`
 
 2. Once you created a new file or made any changes on existing file "modifiedfile.tex", do (similar as "svn ci -m" but not submit to the server yet):
 
-... `git add modifiedfile.tex`  (In svn you use "svn add" to stage a new file. While in git both new files and new modifications need to be staged with "add")
+...`git add modifiedfile.tex`  (In svn you use "svn add" to stage a new file. While in git both new files and new modifications need to be staged with "add")
 
 ... `git commit -m "messages about your modifications"`
 
