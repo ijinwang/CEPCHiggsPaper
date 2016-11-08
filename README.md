@@ -49,6 +49,10 @@ modification on server (this is the version on server)
 You should edit the file and replace the whole conflict area with your preferred solution, and do "git commit -a -m" and "git push" to upload your solution of the conflicts.
 Note that if conflicts exists you have to fix the conflicts as shown above before moving forward with other actions, otherwise it will be messy.
 
+
+
+The following commands need to be used with extra caution.
+
 For uncommited modifications, if you want to discard them (make sure you want to do this!!) and restore previous version, use:
 
 $ git checkout -- modifiedfile.tex
@@ -64,6 +68,12 @@ $ git log
 and then restore the one you prefer:
 
 $ git reset --hard 5775d213fc5450760a4521fd061ff2c7af2e1552  (this number is the the SHA-1 hash of the commit which you will find in "git log")
+
+To delete a file on server (make sure you want to do this!!), do 
+
+$ git rm filetobedeleted.tex
+$ git commit -am "I want to delete this badly"
+$ git push
 
 
 To make the best use of git, please read:
