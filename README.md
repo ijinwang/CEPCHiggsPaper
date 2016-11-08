@@ -1,4 +1,8 @@
-# CEPCHiggsPaper
+# Project Name
+
+CEPCHiggsPaper
+
+## Instruction
 
 This project documents CEPC Higgs measurement results and the physics interpretations, aiming for a paper to be published in Summer 2017. 
 The paper will demonstrate the physics potential of the CEPC experiment and will be used as a reference for the CEPC CDR.
@@ -6,6 +10,7 @@ The paper will demonstrate the physics potential of the CEPC experiment and will
 If you want to modify the paper draft, you need to register at https://github.com/, and send your username to jinwang.cepc@gmail.com.
 An invitation email will be send to you and you will get full access rights after you accepted the invitation.
 
+## Usage
 
 Below is a very simple instruction on the usage of git only for those who never used git. 
 This instruction resembles the svn and ignores some key features of git.
@@ -40,11 +45,11 @@ There will also be warning if there are conflicts (the same line edited differen
 In this case, after "git pull " you can find all the information in the conflicted file. 
 It will be shown as below with a conflict-marked area and the two conflicting blocks divided by a =======.
 
-<<<<<<< HEAD (conflict marker begins, "HEAD" points to your repository)
+`<<<<<<<` HEAD (conflict marker begins, "HEAD" points to your repository)
 your modification  (this is your version)
-=======
+`=======`
 modification on server (this is the version on server)
->>>>>>> branch-name (conflict marker ends, "branch-name" is the repository on servers)
+`>>>>>>>` branch-name (conflict marker ends, "branch-name" is the repository on servers)
 
 You should edit the file and replace the whole conflict area with your preferred solution, and do "git commit -am" and "git push" to upload your solution of the conflicts.
 Note that if conflicts exists you have to fix the conflicts as shown above before moving forward with other actions, otherwise it will be messy.
@@ -77,6 +82,7 @@ $ git commit -am "I want to delete this badly"
 
 $ git push
 
+## More
 
 To make the best use of git, please read:
 
