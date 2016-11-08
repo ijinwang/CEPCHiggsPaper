@@ -15,11 +15,11 @@ An invitation email will be send to you and you will get full access rights afte
 Below is a very simple instruction on the usage of git only for those who never used git. 
 This instruction resembles the svn and ignores some key features of git.
 
-1. To download the repository (same as "svn co"), do:
+* To download the repository (same as "svn co"), do:
 
 `git clone https://github.com/ijinwang/CEPCHiggsPaper`
 
-2. Once you created a new file or made any changes on existing file "modifiedfile.tex", do (similar as "svn ci -m" but not submit to the server yet):
+* Once you created a new file or made any changes on existing file "modifiedfile.tex", do (similar as "svn ci -m" but not submit to the server yet):
 
 `git add modifiedfile.tex`  (In svn you use "svn add" to stage a new file. While in git both new files and new modifications need to be staged with "add")
 
@@ -29,11 +29,11 @@ or if there is no new files/directories, use "-am" to do the "add" and "commit" 
 
 `git commit -am "messages about your modifications`
 
-3. If you want to push the commits you’ve done back up to the server (this plus previous step will serve as "svn ci -m" and it requests access rights):
+* If you want to push the commits you’ve done back up to the server (this plus previous step will serve as "svn ci -m" and it requests access rights):
 
 `git push`
 
-4. Before uploading your modifications, you should update your local repository first (same as "svn update"):
+* Before uploading your modifications, you should update your local repository first (same as "svn update"):
 
 `git pull`
 
@@ -60,7 +60,7 @@ Note that if conflicts exists you have to fix the conflicts as shown above befor
 
 
 
-5. The following commands need to be used with extra caution.
+* The following commands need to be used with extra caution.
 
 For uncommited modifications, if you want to discard them (make sure you want to do this!!) and restore previous version, use:
 
@@ -78,7 +78,7 @@ and then restore the one you prefer:
 
 `git reset --hard 5775d213fc5450760a4521fd061ff2c7af2e1552`  (this number is the the SHA-1 hash of the commit which you will find in "git log")
 
-6. To delete a file on server (make sure you want to do this!!), do 
+* To delete a file on server (make sure you want to do this!!), do 
 
 `git rm filetobedeleted.tex`
 
