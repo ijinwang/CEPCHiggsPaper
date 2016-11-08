@@ -20,15 +20,15 @@ $ git add modifiedfile.tex  (In svn you use "svn add" to stage a new file. While
 
 $ git commit -m "messages about your modifications"
 
-or use "-a -m" to do the "add" and "commit" the same time with all the changes you made:
+or if there is no new files/directories, use "-am" to do the "add" and "commit" the same time with all the changes you made:
 
-$ git commit -a -m "messages about your modifications"
+$ git commit -am "messages about your modifications"
 
 If you want to push the commits you’ve done back up to the server (this plus previous step will serve as "svn ci -m" and it requests access rights):
 
 $ git push
 
-Before you upload your modifications, you should update your local repository first (same as "svn update"):
+Before uploading your modifications, you should update your local repository first (same as "svn update"):
 
 $ git pull
 
@@ -46,7 +46,7 @@ your modification  (this is your version)
 modification on server (this is the version on server)
 >>>>>>> branch-name (conflict marker ends, "branch-name" is the repository on servers)
 
-You should edit the file and replace the whole conflict area with your preferred solution, and do "git commit -a -m" and "git push" to upload your solution of the conflicts.
+You should edit the file and replace the whole conflict area with your preferred solution, and do "git commit -am" and "git push" to upload your solution of the conflicts.
 Note that if conflicts exists you have to fix the conflicts as shown above before moving forward with other actions, otherwise it will be messy.
 
 For uncommited modifications, if you want to discard them (make sure you want to do this!!) and restore previous version, use:
