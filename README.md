@@ -72,10 +72,14 @@ $ git reset --hard 5775d213fc5450760a4521fd061ff2c7af2e1552  (this number is the
 To delete a file on server (make sure you want to do this!!), do 
 
 $ git rm filetobedeleted.tex
+
 $ git commit -am "I want to delete this badly"
+
 $ git push
 
 
 To make the best use of git, please read:
 
 https://git-scm.com/book/en/v2
+
+You can also easily find answers on google if you meet any problem or need new operations with git.
