@@ -2,6 +2,8 @@
 
 CEPCHiggsPaper
 
+---
+
 ## Instruction
 
 This project documents CEPC Higgs measurement results and the physics interpretations, aiming for a paper to be published in Summer 2017. 
@@ -9,6 +11,8 @@ The paper will demonstrate the physics potential of the CEPC experiment and will
 
 If you want to modify the paper draft, you need to register at https://github.com/, and send your username to jinwang.cepc@gmail.com.
 An invitation email will be send to you and you will get full access rights after you accepted the invitation.
+
+---
 
 ## Usage
 
@@ -85,6 +89,8 @@ and then restore the one you prefer:
 `git commit -am "I want to delete this badly"`
 
 `git push`
+
+---
 
 ## More
 
