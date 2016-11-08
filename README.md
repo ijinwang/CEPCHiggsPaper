@@ -43,12 +43,16 @@ You have to commit your changes first before "git pull", otherwise there will be
 
 There will also be warning if there are conflicts (the same line edited differently by you and others) between the local version and the version on the server, 
 In this case, after "git pull " you can find all the information in the conflicted file. 
-It will be shown as below with a conflict-marked area and the two conflicting blocks divided by a =======.
+It will be shown as below with a conflict-marked area between `<<<<<<<` and `>>>>>>>`, and the two conflicting blocks divided by a `=======`.
 
 `<<<<<<<` HEAD (conflict marker begins, "HEAD" points to your repository)
+
 your modification  (this is your version)
+
 `=======`
+
 modification on server (this is the version on server)
+
 `>>>>>>>` branch-name (conflict marker ends, "branch-name" is the repository on servers)
 
 You should edit the file and replace the whole conflict area with your preferred solution, and do "git commit -am" and "git push" to upload your solution of the conflicts.
