@@ -35,7 +35,18 @@ $ git pull
 Note that "git pull" will fetch the most updated version from the server and will merge it with your local version.
 It won't overwrite your local modification (same as "svn update"). 
 You have to commit your changes first before "git pull", otherwise there will be warnings/errors.
+
 There will also be warning if there are conflicts (the same line edited differently by you and others) between the local version and the version on the server, 
+In this case, after "git pull " you can find all the information in the conflicted file. 
+It will be shown as below with a conflict-marked area and the two conflicting blocks divided by a =======.
+
+<<<<<<< HEAD (conflict marker begins, "HEAD" points to your repository)
+your modification  (this is your version)
+=======
+modification on server (this is the version on server)
+>>>>>>> branch-name (conflict marker ends, "branch-name" is the repository on servers)
+
+You should edit the file and remove the whole conflict area with your prefers, and do "git commit -a -m" and "git push" to solve the conflicts.
 
 If you want to discard your modification (make sure you want to do this!!) and restore previous version, use:
 
@@ -45,8 +56,6 @@ or discard all modifications:
 
 $ git checkout -- .
 
-You have to commit your changes first before "git pull", otherwise there will be warnings/errors.
-There will also be warning if there are conflicts (the same line edited differently by you and others) between the local version and the version on the server,
 
 To make the best use of git, please read:
 
