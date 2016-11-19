@@ -2,7 +2,7 @@ LATEX = pdflatex
 BIBTEX = bibtex
 DVIPS = dvips
 
-BASENAME = CEPCHiggs2014
+BASENAME = CEPCHiggs2017
 
 
 default: testlatex
