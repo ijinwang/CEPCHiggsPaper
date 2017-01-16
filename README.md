@@ -41,7 +41,9 @@ This instruction resembles the svn and ignores some key features of git.
 
   `git pull`
 
-  Note that "git pull" will fetch the most updated version from the server and will merge it with your local version.
+* You should be fine with above few line to edit the note as you want. The following are some addtions.
+
+  "git pull" will fetch the most updated version from the server and will merge it with your local version.
   It won't overwrite your local modification (same as "svn update"). 
   You have to commit your changes first before "git pull", otherwise there will be warnings/errors.
 
