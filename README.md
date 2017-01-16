@@ -29,7 +29,7 @@ This instruction resembles the svn and ignores some key features of git.
 
   `git commit -m "messages about your modifications"`
 
-  or if there is no new files/directories, use "-am" to do the "add" and "commit" the same time with all the changes you made:
+  You can also use "-am" to do the "add" and "commit" the same time with all the changes you made (but if there are new files/directories, you need to use the full version "git add"):
 
   `git commit -am "messages about your modifications`
 
