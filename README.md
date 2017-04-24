@@ -101,5 +101,3 @@ To make the best use of git, please read:
 https://git-scm.com/book/en/v2
 
 You  can also easily find answers on google if you meet any problem or need new operations with git.
-
-test
